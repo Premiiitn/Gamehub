@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067976920701",
+    "project_id": "game-2103d",
+    "storage_bucket": "game-2103d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067976920701:android:999f9d988eec31efe7eb14",
+        "android_client_info": {
+          "package_name": "com.example.gamehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHr1fkCyWzeR13x4EJfuYRzUnr8pXDXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067976920701:android:31abe017d3407b21e7eb14",
+        "android_client_info": {
+          "package_name": "com.example.gridconq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHr1fkCyWzeR13x4EJfuYRzUnr8pXDXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
