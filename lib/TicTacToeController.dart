@@ -60,6 +60,7 @@ class TicTacToeGameController with ChangeNotifier {
   final String player1;
   final String player2;
   String? _currentPlayer;
+  bool isdialogshown = false;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   List<String> board = List.filled(9, '');
   bool isGameOver = false;
@@ -231,6 +232,7 @@ class TicTacToeGameController with ChangeNotifier {
       'isGameOver': true,
       'Winner': Winner,
     }, SetOptions(merge: true));
+    isdialogshown = true;
   }
 
   void _updateFirebaseGameState() async {
@@ -265,6 +267,7 @@ class TicTacToeGameController with ChangeNotifier {
     board = List.filled(9, '');
     isGameOver = false;
     Winner = "";
+    isdialogshown = false;
     _currentPlayer = player1; // Reset to starting player
     notifyListeners();
     _updateFirebaseGameState();

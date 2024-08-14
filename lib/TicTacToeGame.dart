@@ -273,7 +273,7 @@ class _TicTacToeGameState extends State<TicTacToeGame>
         ),
         body: Consumer<TicTacToeGameController>(
           builder: (context, controller, child) {
-            if (controller.isGameOver) {
+            if (controller.isGameOver && !controller.isdialogshown) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 _showGameOverDialog(controller.Winner);
                 _playAnimation();
