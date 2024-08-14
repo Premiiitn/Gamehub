@@ -30,7 +30,7 @@ Programming Language: Dart
 Backend: Firebase (Authentication, Database)
 
 Installation
-Clone the repository: git clone https://github.com/yourusername/gamehub.git
+Clone the repository: git clone https://github.com/Premiiitn/Gamehub.git
 Navigate to the project directory: cd gamehub
 Install dependencies: flutter pub get
 Run the app: flutter run
